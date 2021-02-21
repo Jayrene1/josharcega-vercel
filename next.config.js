@@ -1,6 +1,5 @@
-import MDX from '@next/mdx';
-
-const withMDX = MDX({
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const withMDX = require(`@next/mdx`)({
   extension: /\.mdx?$/,
 });
 
